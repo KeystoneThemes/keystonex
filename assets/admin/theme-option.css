@@ -1,0 +1,662 @@
+
+
+.redux-container {
+    font-family: 'Inter', sans-serif;
+    height: fit-content;
+}
+
+.redux-container #redux-header {
+    border: none;
+    width: 264px;
+    border-top-left-radius: 8px;
+    background: #0C1523 !important;
+}
+
+.redux-container .redux-main {
+    margin-left: 284px;
+    margin-top: -105px;
+    padding-left: 40px;
+}
+
+.redux-sidebar {
+    width: 284px;
+    height: 100% !important;
+}
+
+.redux-sidebar .redux-group-menu li.active a,
+.redux-sidebar .redux-group-menu li.active a:hover,
+.redux-sidebar .redux-group-menu li.activeChild a,
+.redux-sidebar .redux-group-menu li.activeChild a:hover {
+    width: 100%;
+}
+
+.redux-container .redux-sidebar .redux-group-menu {
+    background: #0C1523 !important;
+    border-bottom-left-radius: 8px;
+    height: 100%;
+    padding: 0 20px 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.redux-main #redux-sticky:first-child {
+    display: none;
+}
+
+.redux-container .redux-sidebar .redux-group-menu li.active a,
+.redux-container .redux-sidebar .redux-group-menu li.active a:hover,
+.redux-container .redux-sidebar .redux-group-menu li a:hover,
+.redux-container .redux-sidebar .redux-group-menu li.activeChild.hasSubSections a {
+    background-color: rgb(255 255 255 / 9%) !important;
+    border: none !important;
+    box-shadow: unset;
+    font-weight: 400 !important;
+}
+
+.redux-sidebar .redux-group-menu li a {
+    border-left: none !important;
+    display: block;
+    margin-right: 0 !important;
+}
+
+.select2-container--default .select2-selection--single {
+    border: 1.5px solid #EAEDF0;
+    height: 48px;
+    display: block;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 48px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__clear {
+    height: 48px;
+}
+
+.redux-main .redux-typography-container .select_wrapper:nth-child(odd) {}
+
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.clearfix::before {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.redux-main .redux-typography-container .select_wrapper {
+    height: 88px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 48px;
+}
+
+.select2-dropdown {
+    border: 1.5px solid #EAEDF0;
+}
+.redux-main .redux-typography-container .input_wrapper input.mini {
+    height: 48px;
+    border: 1.5px solid #EAEDF0;
+    border-radius: 8px;
+    box-shadow: unset;
+    width: calc(100% - 30px);
+    border-right: none;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.redux-container .redux-main .input-append .add-on {
+    height: 48px;
+    display: inline-flex;
+    box-sizing: border-box;
+    line-height: 37px;
+    border-color: #EAEDF0;
+    padding: 0 7px;
+    background: transparent;
+    color: #05050578;
+    border-left: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 30px;
+}
+
+.redux-main .redux-typography-container .input_wrapper {
+    height: 89px;
+}
+
+.redux-main .redux-typography-container label {}
+
+.redux-container .redux-sidebar .redux-group-menu li a {
+    box-sizing: border-box;
+}
+
+.redux-field .sp-replacer {
+    border: 1.5px solid #EAEDF0;
+    background-color: #fff;
+    width: 50%;
+    height: 48px;
+    display: flex;
+    box-shadow: unset;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 13px;
+    border-radius: 8px;
+}
+
+.redux-container .redux-group-tab {}
+
+.redux-field .sp-preview {
+    border: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 13px;
+}
+
+.redux-field input {}
+
+input[type=date],
+input[type=datetime-local],
+input[type=datetime],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+input[type=week] {
+    border: 1.5px solid #EAEDF0;
+}
+
+.redux-container .redux-main .wp-picker-container .wp-color-result {
+    height: 20px !important;
+    width: 20px;
+    margin: 0;
+    position: relative;
+    z-index: 4;
+    margin-bottom: 0 !important;
+    margin-left: 5px !important;
+    margin-right: 13px !important;
+    border-radius: 3px;
+    border: none !important;
+    box-shadow: unset;
+    padding: 0 0 0 30px !important;
+}
+
+.redux-main .redux-typography-container .wp-picker-container {
+    height: 48px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1.5px solid #EAEDF0;
+    border-radius: 8px;
+}
+
+.redux-main .wp-color-result-text {
+    box-sizing: border-box;
+    border: none;
+    background-color: unset;
+    padding-left: 13px;
+}
+
+.redux-main .redux-field .redux-typography-container .select_wrapper>select {
+    height: 48px !important;
+    line-height: 48px !important;
+    border: 1.5px solid #EAEDF0;
+    box-shadow: unset;
+}
+
+.redux-field .wp-picker-open+.wp-picker-input-wrap {
+    display: inline-flex;
+    margin-left: 72px;
+    align-items: center;
+}
+
+.redux-field .wp-picker-open+.wp-picker-input-wrap input {
+    border: none;
+    box-shadow: unset;
+}
+.redux-main .button:not(.wp-color-result) {
+    height: 48px;
+    background: #C5F900;
+    color: #000000;
+    line-height: 44px;
+    padding: 0 20px;
+    border-radius: 28px;
+    font-family: 'Inter';
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    border:none;
+
+}
+.redux-container .redux-main input[type=text] {
+    height: 48px;
+    border: 1.5px solid #EAEDF0;
+    background: #FFFFFF;
+    padding: 0 13px;
+    border-radius: 8px;
+}
+
+.redux-container .redux-main .redux-field-container {
+    position: relative;
+    padding: 30px 0;
+}
+.redux-main .button.media_upload_button {
+    position: absolute;
+    right: -13px;
+    top: 8px;
+    transform: translatex(100%);
+    background-color: #000000;
+    line-height: 47px;
+    color: #fff;
+}
+
+.redux-main a.of-uploaded-image {
+    width: 104px;
+    display: inline-block;
+}
+
+.redux-main .button.remove-image {
+    background-position: center;
+    text-indent: 99999px;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    position: absolute;
+    top: 82px;
+    left: 83px;
+    border: none;
+    margin: 0;
+    background-image: url(../images/close.png);
+    background-repeat: no-repeat;
+    padding: 0;
+}
+
+.redux-container-spinner .ui-widget .ui-spinner-button .ui-icon,
+.redux-container-switch .cb-enable.selected,
+.redux-field-container .ui-buttonset .ui-state-active,
+.redux-container-switch .cb-enable.selected {
+    background-color: #432CF3 !important;
+    background-image: unset !important;
+    border: none !important;
+}
+
+.redux-container-switch .cb-disable.selected {
+    background-color: #0C1523 !important;
+    background-image: unset !important;
+    border: none;
+}
+
+.redux-container-switch .cb-enable {
+    border: none;
+    color: #0C1523;
+}
+
+.redux-container-switch .cb-disable {
+    border: none;
+}
+
+.redux-field .wp-picker-open+.wp-picker-input-wrap input.wp-picker-clear {
+    color: red;
+    display: none;
+}
+
+.redux-container .redux-sidebar .redux-group-menu li a {
+    font-family: 'Inter' !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    color: #A9B4C0 !important;
+    border-radius: 5px;
+}
+
+.redux-sidebar .redux-group-tab-link-a span.group_title {
+    padding-left: 30px;
+}
+
+.redux-container .redux-sidebar .redux-group-menu li .subsection .redux-group-tab-link-li .redux-group-tab-link-a {
+    background-color: rgb(255 255 255 / 9%) !important;
+    padding-left: 40px;
+}
+
+.redux-container .redux-sidebar .redux-group-menu li .subsection {
+    background: transparent;
+}
+
+.redux-sidebar .redux-group-menu li.active.hasSubSections a::after {
+    right: 15px;
+    display: none;
+}
+
+.redux-container .redux-sidebar .redux-group-menu li .subsection .redux-group-tab-link-li .redux-group-tab-link-a:hover {
+    background: rgb(255 255 255 / 9%) !important;
+    color: #fff !important;
+}
+
+.redux-container .redux-sidebar,
+.redux-container .redux-main {
+    height: 100% !important;
+}
+
+.redux-container form.redux-form-wrapper {
+    height: 100%;
+    position: relative;
+    background: #0C1523;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.redux-container .redux-group-tab h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 36px;
+    letter-spacing: -0.3px;
+    color: #0C1523;
+}
+
+.redux-container .redux_field_th {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    color: #000000;
+    padding-top: 30px;
+}
+
+.redux-container .redux-main span.description,
+.redux-main .description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #616C77;
+}
+
+.redux-container .redux-action_bar input[type=submit] {
+    margin-left: 10px;
+}
+.redux-container .sticky-footer-fixed {
+    position: static !important;
+    background-color: transparent !important;
+}
+
+.redux-container #redux-footer {
+    position: static;
+    background-color: transparent !important;
+    border: none;
+    padding-bottom: 35px;
+    padding-right: 40px;
+}
+
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+    background: #F3F7FA !important;
+    color: #18181B;
+}
+
+.select2-results__option {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #18181B;
+    border-radius: 8px;
+}
+
+.select2-container--default .select2-results__option--selected {
+    background: #F3F7FA;
+}
+
+ul.select2-results__options.select2-results__options--nested {
+    padding: 4px 14px;
+    border: 1px solid #EAEDF0;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.select2-container--default .select2-results__group {
+    padding-left: 26px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #18181B;
+    font-weight: 600;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field {
+    border: 1px solid #EAEDF0;
+    border-radius: 8px;
+    background-image: url(../images/theme-options/search.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 13px center;
+    padding-left: 38px;
+}
+
+.select2-search--dropdown {
+    padding: 13px;
+}
+
+.redux-container .form-table>tbody>tr>th {
+    width: 32%;
+    padding-right: 7%;
+    min-width: 300px;
+}
+
+.redux-container .redux-main .form-table tr {
+    border-color: #EAEDF0;
+}
+
+.redux-container * {
+    box-sizing: border-box;
+}
+
+.redux-container .redux-main .redux-field-container.redux-container-media {
+    max-width: 414px;
+}
+
+.redux-container .redux-action_bar input[type=submit]:not(:nth-child(2)) {
+    color: #000;
+    background-color: #fff;
+    border-color: #32323370;
+}
+
+.redux-container-image_select .redux-image-select-selected img {
+    border-color: #432CF3 !important;
+}
+
+.redux-container .redux-main img {
+    border: 1.5px solid #EAEDF0;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.redux-container-image_select ul.redux-image-select li {
+    margin-right: 5px !important;
+}
+
+.redux-container .redux-main input[type=text]:focus,
+.redux-container .redux-main textarea:focus {
+    box-shadow: unset;
+    border-color: #432CF3;
+}
+
+.redux-container .redux-main textarea {
+    border: 1.5px solid #EAEDF0;
+    background: #FFFFFF;
+    padding: 0 13px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.sp-container {
+    background-color: #fff;
+    color: #fff;
+    padding: 0;
+    box-shadow: 0px 10px 20px #1d20414f;
+    border: none;
+}
+
+.sp-picker-container {
+    border: none;
+}
+
+.sp-color,
+.sp-hue,
+.sp-clear {
+    border: none;
+}
+
+.sp-initial-disabled .sp-input-container input {
+    background-color: rgba(255, 255, 255, .2);
+}
+.sp-container button {
+    background-color: #432CF3 !important;
+    background-image: unset;
+    border: none;
+    color: #fff;
+    font-size: 9px !important;
+    text-shadow: unset;
+    padding: 8px 10px;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field:focus {
+    border-color: #432CF3;
+    box-shadow: unset;
+}
+.redux-container .redux-action_bar {
+    display: flex;
+    align-items: center;
+}
+
+.select_wrapper.typography-transform.tooltip {
+    float: right;
+}
+.redux-main .redux-typography-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.redux-main .redux-typography-container .input_wrapper {
+    flex: 0 0 calc(49% - 10px);
+    width: 50% !important;
+    max-width: 100%;
+}
+.redux-container .redux-main .input-append {
+    width: 100%;
+    display: flex;
+    float: unset;
+    justify-content: space-between;
+}
+.redux-main .redux-typography-container .picker-wrapper {
+    height: auto;
+    padding-right: 20px;
+}
+.redux-main .redux-typography-container .input_wrapper.line-height {
+    margin-left: 0;
+}
+.redux-container .redux-main .wp-picker-container .wp-picker-default {
+    line-height: 1;
+    background-color: transparent;
+    color: #000000ad;
+    padding-left: 6px !important;
+}
+.wp-picker-container .iris-picker {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    box-shadow: 0px -10px 20px #1d20414f;
+}
+.redux-field .wp-picker-open+.wp-picker-input-wrap input.color-picker {
+    background-color: #F3F7FA;
+    border-radius: 3px;
+    height: 34px;
+}
+.redux-update-google-fonts.update-message {
+    border-left: none;
+    border: 1px solid #00000014;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.sp-clear-enabled .sp-clear {
+    background-size: 10px;
+    background-position: top;
+    height: 10px;
+    background: unset;
+}
+.sp-clear-enabled .sp-hue {
+    top: 20px;
+    height: calc(100% - 20px);
+}
+.sp-clear-enabled .sp-clear:before {
+    content: "Clear";
+    color: #00000075;
+    font-size: 8px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    display: block;
+}
+.sp-cancel {
+    font-size: 10px;
+    color: #000000a3 !important;
+}
+.sp-container button:hover {
+    background-image: unset;
+    text-shadow: unset;
+    box-shadow: unset !important;
+    outline: unset;
+    border: none;
+}
+.redux-field .sp-replacer .sp-dd {
+    line-height: 1.1;
+}
+ul#adminmenu a img {
+    width: 20px;
+}
+.redux-main .redux-typography-container .typography-preview {
+    height: 116px;
+}
+.redux-sidebar .stonex-demo-setup-link {
+    order: -1;
+}
+.redux-sidebar .redux-group-menu li.hasSubSections.active a .extraIconSubsections i {
+    transform: rotate(180deg);
+}
+.redux-sidebar .redux-group-menu li.hasSubSections a .extraIconSubsections i {
+    transform-origin: center;
+    transition: .3s;
+    transform: rotate(0deg);
+}
+.redux-sidebar .redux-group-menu li.active.hasSubSections .active a::after,
+.redux-sidebar .redux-group-menu li.activeChild.hasSubSections .active a::after {
+    display: none;
+}
+.redux-sidebar .redux-group-menu li.hasSubSections a .extraIconSubsections {
+    display: block;
+    margin-right: 15px;
+}
