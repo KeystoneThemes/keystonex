@@ -55,7 +55,7 @@ function stonex_check_theme_updates( $transient ) {
     // Create an array of data to return for each theme
     $data = array(
         'theme'       => $stylesheet,
-        'url'         => 'https://keystonethemes.com/demos/wp/keystonex',
+        'url'         => 'https://keystonex.keystonethemes.com/',
         'new_version' => $remote->version,
         'package'     => $remote->download_url,
     );
