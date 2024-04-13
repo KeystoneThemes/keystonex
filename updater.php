@@ -17,7 +17,7 @@ function stonex_check_theme_updates( $transient ) {
     if ( false === $remote ) {
         // Connect to the remote server where the update information is stored
         $remote = wp_remote_get(
-            'https://updates.keystonethemes.com/themes/?action=get_metadata&slug=' . STONEX_THEME_SLUG,
+            'https://api.keystonethemes.com/updates/themes/'. STONEX_THEME_SLUG . '/data.json',
             array(
                 'timeout' => 10,
                 'headers' => array(
