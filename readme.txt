@@ -1,16 +1,16 @@
 === Keystone Base ===
-Contributors: wpgrids
+Contributors: Keystone Themes
 Tags: blog, custom-logo, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, footer-widgets, left-sidebar, right-sidebar
 Requires at least: 5.0
 Tested up to: 5.9
 Requires PHP: 7.0
-Stable tag: 1.1.3
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
 == Description ==
-Keystone Base is a smart, fast & fully customized WordPress theme, built for blog, business website, personal website and ecommmerce store. Keystone Base’s fully responsive layouts display beautifully across desktop, mobile, and all devices. Easy installation and demo imports allows you to build a complete website immediately after the activation. Currently Keystone Base has pre-made demos for minimal blog website, Plumber website, yoga trainer website, solar website. We are consistently updating Keystone Base with new demos every two weeks.
+KeystoneX is a smart bank WordPress Elementor theme for custom WordPress web development.
 
 
 == Installation ==
@@ -93,8 +93,8 @@ Source: https://pxhere.com/en/photo/1437653
 
 == Changelog ==
 
-= 1.1.3 =
-Added -  IT Services
+= 1.1 =
+Initial Eelease
 
 
 
