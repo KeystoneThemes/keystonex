@@ -92,6 +92,8 @@ Source: https://pxhere.com/en/photo/1437653
 
 
 == Changelog ==
+= 2.0.0 =
+Stable Initial Release
 
 = 1.1.1 =
 Initial Release
