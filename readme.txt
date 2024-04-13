@@ -93,8 +93,8 @@ Source: https://pxhere.com/en/photo/1437653
 
 == Changelog ==
 
-= 1.1 =
-Initial Eelease
+= 1.1.1 =
+Initial Release
 
 
 
